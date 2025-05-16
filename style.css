@@ -1,0 +1,103 @@
+/* Stilet bazë për faqen */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #004d99;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+header .logo img {
+    width: 100px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+}
+
+h1, h2 {
+    color: #004d99;
+}
+
+button, a {
+    background-color: #004d99;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover, a:hover {
+    background-color: #003366;
+}
+
+.product {
+    margin-top: 20px;
+}
+
+.product img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+}
+
+footer {
+    background-color: #004d99;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+form label {
+    margin: 5px 0;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #004d99;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+form button:hover {
+    background-color: #003366;
+}
