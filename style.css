@@ -101,3 +101,22 @@ form button {
 form button:hover {
     background-color: #003366;
 }
+.image-row {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap; /* Kjo i lejon të kalojnë në rresht tjetër në ekrane më të vogla */
+  margin-top: 20px;
+}
+
+.image-row img {
+  width: 150px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.image-row img:hover {
+  transform: scale(1.05);
+}
